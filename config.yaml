@@ -2,7 +2,7 @@ baseurl: https://example.com
 languageCode: en-us
 theme: stack
 paginate: 5
-title: Example Site
+title: 热气羊肉
 
 # Change it to your Disqus shortname before using
 disqusShortname: stack
@@ -30,7 +30,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2022
         customText:
 
     dateFormat:
@@ -39,7 +39,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 有一份热，发一分光。
         avatar:
             enabled: true
             local: true

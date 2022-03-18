@@ -92,7 +92,7 @@ params:
                 - true
             avatar:
             emoji:
-                - https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
+                - https://cdn.jsdelivr.net/gh/injellyfish/valine-blobcatemojis@1.1/blobs/
             requiredMeta:
                 - name
                 - email

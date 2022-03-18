@@ -87,7 +87,7 @@ params:
             serverURL: https://hugo-comments.vercel.app
             lang:
             visitor: true
-            avatar:
+            avatar: 'monsterid',
             emoji: [
                 'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
                 'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif'

@@ -55,7 +55,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -85,11 +85,13 @@ params:
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
             serverURL:
+                - https://hugo-comments.vercel.app/
             lang:
+                - en
             visitor:
             avatar:
             emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+                - https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
             requiredMeta:
                 - name
                 - email

@@ -40,7 +40,7 @@ params:
     sidebar:
         emoji: 🍥
         subtitle: 有一份热，发一分光。
-        avatar:
+        avatar: york
             enabled: true
             local: true
             src: img/avatar.png
@@ -87,7 +87,7 @@ params:
             serverURL: https://hugo-comments.vercel.app
             lang:
             visitor: true
-            avatar: 'monsterid',
+            avatar:
             emoji: [
                 'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
                 'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif'

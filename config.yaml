@@ -40,7 +40,7 @@ params:
     sidebar:
         emoji: 🍥
         subtitle: 有一份热，发一分光。
-        avatar: york
+        avatar:
             enabled: true
             local: true
             src: img/avatar.png

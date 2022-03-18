@@ -89,7 +89,10 @@ params:
             lang:
                 - en
             visitor:
+                - true
             avatar:
+            dark：
+                -auto
             emoji:
                 - https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
             requiredMeta:

@@ -85,7 +85,7 @@ params:
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
             serverURL:
-                - "https://hugo-comments.vercel.app/"
+                - 'https://hugo-comments.vercel.app/'
             lang:
                 - en
             visitor:

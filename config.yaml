@@ -89,7 +89,7 @@ params:
             visitor: true
             avatar:
             emoji: [
-                'https://cdn.jsdelivr.net/gh/injellyfish/valine-blobcatemojis@1.1/blobs/'
+                'https://cdn.jsdelivr.net/gh/injellyfish/valine-blobcatemojis@1.1/blobs/',
             ]
             requiredMeta:
                 - name

@@ -85,13 +85,11 @@ params:
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
             serverURL: https://hugo-comments.vercel.app
-            lang:
-                - en
+            lang: en
             visitor:
                 - true
             avatar:
-            emoji:
-                - https://cdn.jsdelivr.net/gh/injellyfish/valine-blobcatemojis@1.1/blobs/
+            emoji: https://cdn.jsdelivr.net/gh/injellyfish/valine-blobcatemojis@1.1/blobs/
             requiredMeta:
                 - name
                 - email

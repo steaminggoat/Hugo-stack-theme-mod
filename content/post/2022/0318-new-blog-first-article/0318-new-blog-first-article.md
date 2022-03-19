@@ -3,8 +3,8 @@ title: "Hugo|新博客搭建小记——重回2000"
 description: 
 date: 2022-03-18T16:05:51+08:00
 image: 
-categories：" 2022"," 姓名粗记可以休"
-tag：" Hugo"
+categories：[" 2022"," 姓名粗记可以休"]
+tag：[" Hugo"
 math: 
 license: 
 hidden: true

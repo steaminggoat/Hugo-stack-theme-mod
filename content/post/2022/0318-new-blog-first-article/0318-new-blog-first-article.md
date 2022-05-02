@@ -9,7 +9,7 @@ math:
 license: 
 hidden: flase
 comments: true
-draft: true
+draft: flase
 typora-root-url: ./
 ---
 

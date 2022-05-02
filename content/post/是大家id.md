@@ -9,5 +9,5 @@ math:
 license: 
 hidden: false
 comments: true
-draft: true
+draft: false
 ---

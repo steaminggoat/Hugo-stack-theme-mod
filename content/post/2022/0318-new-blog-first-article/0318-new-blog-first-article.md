@@ -135,6 +135,8 @@ Hugo架构的搭建让我摸了摸技术的“外衣”，大量傻瓜教程让�
 
 [写意Writee](https://writee.org/)
 
+WordPress本身应该也有一个在线写作平台
+
 
 
 ## Notion

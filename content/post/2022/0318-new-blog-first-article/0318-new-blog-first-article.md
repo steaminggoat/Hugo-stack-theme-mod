@@ -1,5 +1,5 @@
 ---
-title: "Hugo|新博客搭建小记——重回2000"
+title: "Hugo|新博客搭建小记"
 description: 
 date: 2022-04-18T16:05:51+08:00
 image: 

@@ -221,23 +221,19 @@ WordPress本身应该也有一个在线写作平台
 
 1. 注册完Github后，进入[Even主题的Github页面](https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md)，点击右上角Fork按钮， Fork该Repository至自己账号下。
 
-
-
-<img src="/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503152634556.png" alt="fork按钮位置" style= "zoom:80%; with border: 1px solid lightgrey;" />
-
-
-
-![创建新Fork](/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503153213979.png)
-
-2. 打开[Vercel](https://vercel.com/new)，用Github账号登录，然后依次点击Overview和New Project，可以看到刚刚Fork的Even主题已经在我们的仓库中，可以通过Vercel直接Import
-
-![Vercel1](/image-20220503153550344.png)
+![Github界面上的fork按钮](/images/0318-new-blog-first-article.assets/image-20220503222235802.png)
 
 
 
-![Vercel2](/image-20220503153827557.png)
+![创建新fork](/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503222619009.png)
 
-![Vercel3](/image-20220503154325566.png)
+
+
+2. 打开[Vercel](https://vercel.com/new)，用Github账号登录，然后依次点击Overview和New Project，可以看到刚刚Fork的Even主题已经在我们的仓库中，可以通过Vercel直接Import。
+
+
+
+![Vercel部署过程](/images/0318-new-blog-first-article.assets/image-20220503224029959.png)
 
 
 

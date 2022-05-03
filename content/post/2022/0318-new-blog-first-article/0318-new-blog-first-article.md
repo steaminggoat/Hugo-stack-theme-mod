@@ -10,7 +10,7 @@ license:
 hidden: true
 comments: true
 draft: false
-typora-root-url: ./
+typora-root-url: ..\..\..\Static
 ---
 
 
@@ -221,7 +221,7 @@ WordPress本身应该也有一个在线写作平台
 
 1. 注册完Github后，进入[Even主题的Github页面](https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md)，点击右上角Fork按钮， Fork该Repository至自己账号下。
 
-![Fork按钮](/0318-new-blog-first-article.assets/image-20220503152634556.png)
+![image-20220503152634556](/0318-new-blog-first-article.assets/image-20220503152634556.png)
 
 ![创建Fork](/image-20220503153213979.png)
 

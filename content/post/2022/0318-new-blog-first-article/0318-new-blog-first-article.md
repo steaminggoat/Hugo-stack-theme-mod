@@ -219,9 +219,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-1. 注册完Github后，进入[Even主题的Github页面](https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md)，点击右上角Fork按钮， Fork该Repository至自己账号下。
-
-![Github界面上的fork按钮](/images/0318-new-blog-first-article.assets/image-20220503222235802.png)
+1. 注册完Github后，进入[Even主题的Github页面](https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md)，点击右上角Fork按钮，如下图确认后，Fork该仓库至自己账号下。
 
 
 
@@ -233,7 +231,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-![Vercel部署过程](/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503224029959.png)
+<img src="/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503224029959.png" alt="Vercel部署过程" style="zoom:;" />
 
 
 

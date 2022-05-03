@@ -264,7 +264,7 @@ comments:
    ……//省略若干代码
 ​    \# Waline client configuration see: https://waline.js.org/en/reference/client.html
 ​    waline:
-​      serverURL: //这里填入Vercel部署后服务器的地址
+​		serverURL: //这里填入Vercel部署后服务器的地址
 ```
 
 

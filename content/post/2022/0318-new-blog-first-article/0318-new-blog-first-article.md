@@ -223,7 +223,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-![ApplicationFrameHost_hGRkE5akij](/images/0318-new-blog-first-article.assets/ApplicationFrameHost_hGRkE5akij.png)
+![ApplicationFrameHost_hGRkE5akij](../static/images/0318-new-blog-first-article.assets/ApplicationFrameHost_hGRkE5akij.png)
 
 
 

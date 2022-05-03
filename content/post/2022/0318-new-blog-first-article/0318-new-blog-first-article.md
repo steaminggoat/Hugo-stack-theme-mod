@@ -7,7 +7,7 @@ categories: [" 2022"," 姓名粗记可以休"]
 tag: [" Hugo"]
 math: 
 license: 
-hidden: false
+hidden: true
 comments: true
 draft: true
 typora-root-url: ./

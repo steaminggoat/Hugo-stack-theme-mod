@@ -1,21 +1,21 @@
 ---
 title: "Hugo|新博客搭建小记"
 description: 
-date: 2022-04-18T16:05:51+08:00
+date: 2022-05-03T16:05:51+08:00
 image: 
 categories: [" 2022"," 姓名粗记可以休"]
 tag: [" Hugo"]
 math: 
 license: 
-hidden: true
+hidden: false
 comments: true
-draft: true
+draft: false
 typora-root-url: ./
 ---
 
 
 
-# ~~废话~~引言
+# ~~废话~~引言 #
 
 
 
@@ -203,7 +203,9 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-本人最初是基于[《Hugo | 一起动手搭建个人博客吧》](https://mantyke.icu/2021/hugo-build-blog/)一步步设置的，但由于塔塔君放出了[《Hugo | Hugo-stack-theme 主题魔改版》](https://mantyke.icu/2022/stack-theme-mod/)，珠玉在前，这里就直接引用塔塔博客的原文，同时由于大部分Hugo主题在Github上均有发布，其实也可以采用类似的方式“一键”设置，有兴趣的读者可以在[Hugo主题](https://themes.gohugo.io/)中寻找喜欢的主题用类似的方法设置。那么，内容如下：
+本人最初是基于塔塔君的[《Hugo | 一起动手搭建个人博客吧》](https://mantyke.icu/2021/hugo-build-blog/)逐步搭建的，但塔塔君后续放出了[《Hugo | Hugo-stack-theme 主题魔改版》](https://mantyke.icu/2022/stack-theme-mod/)一键换装版本，珠玉在前，在此直接引用塔塔博客的原文步骤。同时大部分Hugo主题在Github上均有发布，有兴趣的读者可以在[Hugo主题](https://themes.gohugo.io/)中寻找喜欢的主题用类似的方法设置博客。这里我们采用[Even](https://themes.gohugo.io/themes/hugo-theme-even/)主题进行尝试，步骤如下：
+
+
 
 > Github 仓库地址：[Mantyke](https://github.com/Mantyke)/[stack-theme-mod](https://github.com/Mantyke/Hugo-stack-theme-mod)
 >
@@ -214,6 +216,34 @@ WordPress本身应该也有一个在线写作平台
 > ## 使用方式
 >
 > **从零建立博客**：Fork 仓库到自己账号下，用 Github 注册 Vercel，依次点击 Overview → New Project → import 刚刚 Fork 的仓库，设置`FRAMEWORK PRESET`为 Hugo → 点击`Environment Variables`，设置`NAME`为`HUGO_VERSION`，`Value`为`Hugo版本号（如0.89.0）` → 点击 Add → 点击 Deploy，稍等十来秒即可部署完成。下载仓库到本地后使用 Github Desktop 更新文章。
+
+
+
+1. 注册完Github后，进入[Even主题的Github页面](https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md)，点击右上角Fork按钮， Fork该Repository至自己账号下。
+
+![Fork按钮](/image-20220503152634556.png)
+
+![创建Fork](/image-20220503153213979.png)
+
+2. 打开[Vercel](https://vercel.com/new)，用Github账号登录，然后依次点击Overview和New Project，可以看到刚刚Fork的Even主题已经在我们的仓库中，可以通过Vercel直接Import
+
+![Vercel1](/image-20220503153550344.png)
+
+
+
+![Vercel2](/image-20220503153827557.png)
+
+![Vercel3](/image-20220503154325566.png)
+
+
+
+
+
+
+
+
+
+
 
 
 

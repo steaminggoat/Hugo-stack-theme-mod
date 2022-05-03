@@ -271,8 +271,6 @@ comments:
 ​    waline:
 
 ​      serverURL: //这里填入Vercel部署后服务器的地址
-
-​        ]
 ```
 
 

@@ -257,21 +257,23 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 
 
 
-` comments:`
+```yaml
+comments:
 
-​    `enabled: true`
+​    enabled: true
 
-​    `provider: waline //这里修改为Waline`
+​    provider: waline //这里修改为Waline
 
-   `……//省略若干代码`
+   ……//省略若干代码
 
-​    `\# Waline client configuration see: https://waline.js.org/en/reference/client.html`
+​    \# Waline client configuration see: https://waline.js.org/en/reference/client.html
 
-​    `waline:`
+​    waline:
 
-​      `serverURL: //这里填入Vercel部署后服务器的地址`
+​      serverURL: //这里填入Vercel部署后服务器的地址
 
-​        `]`
+​        ]
+```
 
 
 

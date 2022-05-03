@@ -10,6 +10,7 @@ license:
 hidden: true
 comments: true
 draft: false
+typora-root-url: ./
 ---
 
 

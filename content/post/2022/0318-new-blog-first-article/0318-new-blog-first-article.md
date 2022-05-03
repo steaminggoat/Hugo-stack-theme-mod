@@ -223,7 +223,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-![ApplicationFrameHost_hGRkE5akij](../static/images/0318-new-blog-first-article.assets/ApplicationFrameHost_hGRkE5akij.png)
+![Fork仓库](../static/images/0318-new-blog-first-article.assets/ApplicationFrameHost_hGRkE5akij.png)
 
 
 
@@ -231,7 +231,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-
+![Vercel部署](../static/images/0318-new-blog-first-article.assets/POWERPNT_fH6C6TzX9z.png)
 
 
 

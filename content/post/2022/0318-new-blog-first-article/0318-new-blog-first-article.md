@@ -223,7 +223,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-![创建新fork](/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503222619009.png)
+![ApplicationFrameHost_hGRkE5akij](/images/0318-new-blog-first-article.assets/ApplicationFrameHost_hGRkE5akij.png)
 
 
 
@@ -231,7 +231,11 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-<img src="/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503224029959.png" alt="Vercel部署过程" style="zoom:;" />
+
+
+
+
+3. 随后打开GitHub Desktop，选择左上角File-c
 
 
 

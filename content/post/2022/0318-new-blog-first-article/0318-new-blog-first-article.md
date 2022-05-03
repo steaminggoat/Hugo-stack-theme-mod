@@ -235,23 +235,15 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-3. 随后打开GitHub Desktop，选择左上角File-c
+3. 随后打开GitHub Desktop，选择左上角File-clone仓库-选择本地Hugo安装文件夹，之后就大功告成了。
 
 
 
+![Github拉取仓库到本地](../static/images/0318-new-blog-first-article.assets/image-20220503235026027.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
+4. 随后就可以在Vercel点击域名查看网页了。
 
 ### 评论区建设
 

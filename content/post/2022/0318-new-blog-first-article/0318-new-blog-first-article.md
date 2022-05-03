@@ -253,7 +253,7 @@ WordPress本身应该也有一个在线写作平台
 
 由于静态博客没有自带评论区，所以需要自己搭建评论区框架和服务器，这里我们选用[Waline](https://waline.js.org/)作为我们的评论系统。Waline本身的[说明文档](https://waline.js.org/guide/get-started.html#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93)写的非常清晰，跟着步骤走就能完成在Vercel中的部署。
 
-Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文件用VS打开。
+Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文件用VS打开，找到如下代码。
 
 
 
@@ -263,7 +263,7 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 
 ​    `provider: waline //这里修改为Waline`
 
-   `……`
+   `……//省略若干代码`
 
 ​    `\# Waline client configuration see: https://waline.js.org/en/reference/client.html`
 

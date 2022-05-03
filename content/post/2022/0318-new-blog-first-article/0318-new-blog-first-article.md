@@ -223,7 +223,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-![fork按钮位置](/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503152634556.png)
+<img src="/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503152634556.png" alt="fork按钮位置" style= "zoom:80%; with border: 1px solid lightgrey;" />
 
 
 

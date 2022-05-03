@@ -233,7 +233,7 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-![Vercel部署过程](/images/0318-new-blog-first-article.assets/image-20220503224029959.png)
+![Vercel部署过程](/../post/2022/static/images/0318-new-blog-first-article.assets/image-20220503224029959.png)
 
 
 

@@ -266,20 +266,7 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
         
         waline:
             serverURL: https://hugo-comments.vercel.app
-            lang:
-            visitor: true
-            avatar:
-            emoji: [
-                'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
-                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif'
-                ]
-            requiredMeta:
-                - name
-                - email
-                - url
-            placeholder: 
-            locale:
-                admin: Admin
+
 ```
 
 

@@ -223,7 +223,7 @@ markup:
         ordered: true
         startLevel: 2
     highlight: 
-        noClasses: true
+        noClasses: false
         codeFences: true
         guessSyntax: true
         hl_Lines: ""

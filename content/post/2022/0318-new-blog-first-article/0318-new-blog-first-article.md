@@ -245,6 +245,8 @@ WordPress本身应该也有一个在线写作平台
 
 4. 随后就可以在Vercel点击域名查看网页了。
 
+注：Even本身需要从
+
 
 
 ### 评论区建设
@@ -285,9 +287,17 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 
 主要参考了Revi的[《调整代码风格为Nord》](https://www.norevi.icu/2021/hugo-%E8%B0%83%E6%95%B4%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC%E4%B8%BAnord/#%E4%BB%A3%E7%A0%81%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F)，但是实际操作发现了一个问题，那就是当开启行号后，行号无法正常展示，且出现长代码时不能有效换行。查找了Github发现也有类似的问题，[Highlight.js与Hugo不兼容](https://github.com/nanxiaobei/hugo-paper/issues/12)。目前没有找到行之有效的解决方案，读者也可直接采用Hugo自带的Chroma插件显示，可参考[《设置Hugo的代码高亮》](https://dp2px.com/2020/05/29/hugo-highlighting/)。想了想本身博客也不是技术博客，应该也不会出现大量的代码，干脆暂时关闭了行号，按下不表。
 
----
 
-![图片1](/images/0318-new-blog-first-article.assets/image-20220503153827557.png)
+
+
+
+
+
+### 一些疑问
+
+插入图片
+
+
 
 
 

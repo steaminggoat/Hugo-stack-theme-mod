@@ -228,7 +228,7 @@ markup:
         guessSyntax: true
         hl_Lines: ""
         lineNoStart: 1
-        lineNos: true
+        lineNos: false
         lineNumbersInTable: true
         tabWidth: 4
         

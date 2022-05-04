@@ -8,7 +8,6 @@ tag: [" Hugo"]
 math: 
 license: 
 hidden: false
-comments: true
 draft: false
 typora-root-url: ..\..\..\static
 ---

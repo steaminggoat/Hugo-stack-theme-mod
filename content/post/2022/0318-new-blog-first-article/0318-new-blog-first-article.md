@@ -69,7 +69,7 @@ Hugo架构的搭建让我摸了摸技术的“外衣”，大量傻瓜教程让�
 
 
 
-所谓静态博客，个人理解是作者事先安排好的内容（静态文件），通过一定的框架（如Hugo，Hexo等）转为可见页面，通过托管网站发布到互联网上，所见（页面内容）即所得（静态文件）。
+所谓静态博客，笔者的理解是作者事先安排好的内容（静态文件），通过一定的框架（如Hugo，Hexo等）转为可见页面，通过托管网站发布到互联网上，所见（页面内容）即所得（静态文件）。
 
 **优点**
 
@@ -245,7 +245,7 @@ WordPress本身应该也有一个在线写作平台
 
 4. 随后就可以在Vercel点击域名查看网页了。
 
-注：Even本身需要从
+注：Even本身需要从要从[`exampleSite`](https://github.com/olOwOlo/hugo-theme-even/tree/master/exampleSite)文件夹中将`config.toml`文件拖到根目录下放才能正常运行，很多主题都会在Github有详细的步骤说明，先仔细阅读有助于搭建顺利展开。
 
 
 
@@ -253,9 +253,9 @@ WordPress本身应该也有一个在线写作平台
 
 
 
-由于静态博客没有自带评论区，所以需要自己搭建评论区框架和服务器，这里我们选用[Waline](https://waline.js.org/)作为我们的评论系统。Waline本身的[说明文档](https://waline.js.org/guide/get-started.html#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93)写的非常清晰，跟着步骤走就能完成在Vercel中的部署。
+由于静态博客没有自带评论区，所以需要自己搭建评论区框架和服务器，这里我们选用[Waline](https://waline.js.org/)作为我们的评论系统。Waline本身的[说明文档](https://waline.js.org/guide/get-started.html#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93)写的非常清晰，跟着步骤走就能完成在Vercel中的部署。Waline默认使用LeanCloud数据库，当然你也可以选择其他数据库进行操作，笔者别出心裁的选择了MongoDB数据库（其实过程有点自讨苦吃，而且MongoDB的数据库免费容量更小），具体过程可以参考[《从Disqus迁移到Waline》](https://candinya.com/posts/migrate-from-disqus-to-waline/#%E8%BF%81%E7%A7%BB%E8%AE%B0%E5%BD%95)一文，值得注意的是，原文中 **创建数据库-4.（可选）创建专用账户**的过程，我虽然创建了专用账户，但是Vercel设置完环境变量后，似乎无法通过MongoDB的验证，正常读取数据库内容，最后只能作罢，直接使用主账户。不怕麻烦爱折腾的用户可以尝试寻找原因。
 
-Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文件用VS打开，找到如下代码。
+完成Waline部署后，我们只需改变Stack设置，技能将Waline评论挂上我们的网站。Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文件用VScode打开，找到如下代码。
 
 
 
@@ -273,13 +273,79 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 
 
 
-
-
-如此这般，我们便成功搭建了博客的评论区。
+按上文填写后，我们的个人博客就顺利下水了，如前文所言，个人博客最重要的是文字输出，如果能在其中享受”Debug“的快乐，那自是最好，反之技术对于博客来说，也是”粗记可休“足矣。希望大家都能享受畅所欲言的快乐！
 
 
 
-## 后续工作
+## 书写与发布
+
+
+
+搭建完博客后，书写和发布中遇到的一些困难与心得，在此记录。
+
+
+
+### 书写文章
+
+
+
+在Hugo根目录中右键点击`Git bash here`，输入下方内容并回车，
+
+```
+hugo new posts/文章名字.md
+```
+
+即可在对应文件夹中创造一个新md文件，用Markdown编辑器（推荐Tyopa，好用不贵！）即可打开编写。
+
+这里笔者发现没法用代码在post下的文件夹新建md文件（如：`\content\post\2022\`），不知原因。在`post`和`posts`均可以新建md文件，现在采用的是先新建文件，然后再将文件搬到下属文件夹的笨办法。
+
+
+
+### Markdown文件
+
+- Front-matter
+
+Front-matter 是文件最上方以 `---` 分隔的区域，用于指定个别文件的变量，举例如下：
+
+```markdown
+---
+title: "Hugo|新博客搭建小记"
+description: 
+date: 2022-05-03T07:05:51+08:00
+categories: [" 2022"," 姓名粗记可以休"]
+tag: [" Hugo"]
+math: 
+---
+```
+
+它规定了这篇文章的标题、描述、建立时间等，可以看到还有categories和tag也包含在此。自带模板的Front-matter不多，可以编辑`archetypes`文件夹下的`default.md`文件来设置默认的Front Matter模板。笔者觉得比较好用的有：
+
+```
+categories: //分类
+tag: //标签 
+hidden: //是否隐藏，隐藏和draft不同，隐藏只要有对应的url仍旧可以查看，但草稿则不行。
+draft: //是否为草稿
+```
+
+
+
+- 图片
+
+Markdown本身插入图片是以`![]()`的形式存在的，如何可以直接调用文章文件夹下的图片呈现在网页上，笔者本身尚未弄清。目前通过设置静态根目录的方法另辟了一个文件夹专门存储图片与调取，详见：[在Typora和Hugo中正确显示图片](https://www.jtr109.com/posts/manage-images-in-typora-and-hugo/)，但强迫症总觉得不舒服，塔塔原文件中似乎是直接调取文章文件夹目录下的图片，有待继续捣鼓。
+
+
+
+## 后续修改
+
+
+
+主体建设完后，后续做了一些其他修改，因年代久远不可考，记录一些主要的，实际上还未完工，后续就慢慢修补吧。装修贵在折腾，有兴趣者可以参考塔塔的三篇装修指南：
+
+[Hugo | 看中 stack 主题的归档功能，搬家并做修改](https://mantyke.icu/2021/f9f0ec87/)
+
+[Hugo | 另一篇 stack 主题装修记录](https://mantyke.icu/2021/a08f1963/)
+
+[Hugo | 第三篇 Stack 主题装修记录，堂堂再临！](https://mantyke.icu/2022/stack-theme-furnish03/)
 
 
 
@@ -289,13 +355,23 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 
 
 
+### 有待后续调查的疑问和工作
+
+- **插入图片**
+
+如何不用静态文件夹，直接使用文章文件夹下的图片，且可以被识别读取有待后续调查。
+
+- **样式修改**
+
+头像，网站图标等一些杂活有待后续慢慢修改。
+
+- **在线写作**
+
+Hugo是否可以实现在线协作方案，有待搜索。理论上通过Github是一定可以实现的，但是已经感觉到技术的压力了。（为了在线后台，我又何苦折腾静态博客）
 
 
 
 
-### 一些疑问
-
-插入图片
 
 
 

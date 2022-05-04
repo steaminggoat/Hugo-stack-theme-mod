@@ -260,12 +260,12 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 ```yaml
     comments:
         enabled: true
-        provider: waline
+        provider: waline //此处填写waline
         
-        ……………………
+        //省略若干代码
         
         waline:
-            serverURL: https://hugo-comments.vercel.app
+            serverURL: //此处填写Vercel服务器地址
 
 ```
 

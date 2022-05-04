@@ -349,6 +349,7 @@
 
     pre {
         overflow-x: auto;
+        max-height: 230px;
         display: block;
         background-color: var(--pre-background-color);
         color: var(--pre-text-color);

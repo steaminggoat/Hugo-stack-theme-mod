@@ -213,7 +213,7 @@ WordPress本身应该也有一个在线写作平台
 >
 > 预览：[Demo 站](https://stack-theme-mod.vercel.app/)
 >
-> ## 使用方式
+> **使用方式**
 >
 > **从零建立博客**：Fork 仓库到自己账号下，用 Github 注册 Vercel，依次点击 Overview → New Project → import 刚刚 Fork 的仓库，设置`FRAMEWORK PRESET`为 Hugo → 点击`Environment Variables`，设置`NAME`为`HUGO_VERSION`，`Value`为`Hugo版本号（如0.89.0）` → 点击 Add → 点击 Deploy，稍等十来秒即可部署完成。下载仓库到本地后使用 Github Desktop 更新文章。
 

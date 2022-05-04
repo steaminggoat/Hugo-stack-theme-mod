@@ -377,7 +377,7 @@ Hugo能否实现自动为图片添加边框和修改圆角，这个感觉还是�
 
 
 
-![image-20220504162045114](../static/images/0318-new-blog-first-article.assets/image-20220504162045114.png)
+![](../static/images/0318-new-blog-first-article.assets/image-20220504162045114.png)
 
 
 

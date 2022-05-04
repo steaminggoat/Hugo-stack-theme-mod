@@ -195,7 +195,7 @@ WordPress本身应该也有一个在线写作平台
 3. [Github Desktop](https://desktop.github.com/)，Github的桌面客户端，我们发布本地修改到托管服务器需要一次次输入Git命令，但是Github Desktop可以帮助我们简化这个流程，以后只需要启动客户端，点击发布即可。
 4. [VScode](https://code.visualstudio.com/)，知名的代码编辑器。下载后点击左侧边栏的`Extensions`，在搜索框中搜索`Chinese Language Pack for Visual Studio Code` 和`Markdown All in One`插件并安装。前者为界面汉化，后者则是 Markdown 编辑插件，可以帮助你更好的查看Hugo框架的代码，进行网站的修改。
 5. [Github](https://github.com/) ，注册一个Github账号，Github 负责储存我们整个的博客文件，同时GitHub的账号可以一键注册登录其他工具网站。
-6. [Vercel](https://vercel.com/new)，是一个网站托管平台，Vercel可以帮助我们自动搭建、部署静态网站。而且支持自动配置https，不用自己去FreeSSL申请证书，更是省去了一大堆证书的配置，最重要的是这么多功能都是免费的！免费的！真神仙网站！
+6. [Vercel](https://vercel.com/new)，是一个网站托管平台，直接用关联Github的账号登录。Vercel可以帮助我们自动搭建、部署静态网站。而且支持自动配置https，不用自己去FreeSSL申请证书，更是省去了一大堆证书的配置，最重要的是这么多功能都是免费的！免费的！真神仙网站！
 
 
 
@@ -277,9 +277,17 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 
 
 
+## 后续工作
 
 
 
+### 代码高亮
+
+主要参考了Revi的[《调整代码风格为Nord》](https://www.norevi.icu/2021/hugo-%E8%B0%83%E6%95%B4%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC%E4%B8%BAnord/#%E4%BB%A3%E7%A0%81%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F)，但是实际操作发现了一个问题，那就是当开启行号后，行号无法正常展示，且出现长代码时不能有效换行。查找了Github发现也有类似的问题，[Highlight.js与Hugo不兼容](https://github.com/nanxiaobei/hugo-paper/issues/12)。目前没有找到行之有效的解决方案，读者也可直接采用Hugo自带的Chroma插件显示，可参考[《设置Hugo的代码高亮》](https://dp2px.com/2020/05/29/hugo-highlighting/)。想了想本身博客也不是技术博客，应该也不会出现大量的代码，干脆暂时关闭了行号，按下不表。
+
+---
+
+![图片1](/images/0318-new-blog-first-article.assets/image-20220503153827557.png)
 
 
 

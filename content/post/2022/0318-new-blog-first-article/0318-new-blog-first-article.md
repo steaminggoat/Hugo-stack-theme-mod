@@ -258,14 +258,31 @@ Stack主题本身就支持Waline，我们找到根目录下的`config.yaml`文�
 
 
 ```yaml
-comments:
-​    enabled: true
-​    provider: waline //这里修改为Waline
-   ……//省略若干代码
-​    \# Waline client configuration see: https://waline.js.org/en/reference/client.html
-​    waline:
-​		serverURL: //这里填入Vercel部署后服务器的地址
+    comments:
+        enabled: true
+        provider: waline
+        
+        ……………………
+        
+        waline:
+            serverURL: https://hugo-comments.vercel.app
+            lang:
+            visitor: true
+            avatar:
+            emoji: [
+                'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif'
+                ]
+            requiredMeta:
+                - name
+                - email
+                - url
+            placeholder: 
+            locale:
+                admin: Admin
 ```
+
+
 
 
 
